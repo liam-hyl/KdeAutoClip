@@ -9,7 +9,7 @@ KdeAutoClip 是一个 LSPosed 模块，使官方 [KDE Connect](https://kdeconnec
 <p align="left">
   <img alt="Android 10+" src="https://img.shields.io/badge/Android-10%2B-brightgreen">
   <img alt="LSPosed" src="https://img.shields.io/badge/LSPosed-legacy%20API%2082-blueviolet">
-  <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-blue">
+  <img alt="License GPL-3.0" src="https://img.shields.io/badge/License-GPL--3.0-blue">
 </p>
 
 ## 状态
