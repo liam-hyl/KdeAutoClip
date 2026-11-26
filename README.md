@@ -166,7 +166,7 @@ Pull requests should keep the module headless, filtered by package name, and fre
 
 ## License
 
-[MIT](LICENSE)
+[GPL-3.0](LICENSE)
 
 ## Acknowledgements
 
