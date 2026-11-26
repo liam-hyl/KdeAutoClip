@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  KdeAutoClip - makes KDE Connect sync the phone clipboard automatically in the background.
+
+  The module only hooks system_server (scope: "System Framework" / package "android").
+  It does NOT modify the KDE Connect app, needs no root and no READ_LOGS permission.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kdeautoclip.module"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="36" />
+
+    <application
+        android:allowBackup="false"
+        android:hasCode="true"
+        android:label="KDE 自动剪贴板"
+        android:supportsRtl="true">
+
+        <!-- LSPosed / legacy Xposed module metadata -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="解除 Android 10+ 的后台剪贴板读取限制，让 KDE Connect 在后台自动同步剪贴板（仅放行 org.kde.kdeconnect_tp）" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+    </application>
+</manifest>
